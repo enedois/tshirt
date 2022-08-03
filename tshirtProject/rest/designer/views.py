@@ -1,7 +1,7 @@
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
+
 
 def index(request):
-    return HttpResponse('This is the designer page of Tshirt Printing Company')    
-
-# Create your views here.
+    #return HttpResponse('This is index of Tshirt Printing Company')
+     return render(request, 'designer.html')

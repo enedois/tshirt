@@ -5,8 +5,17 @@
 
 }
 
+
 body{
-    background-color: rgb(245, 53, 23);
+    background-color: rgb(128, 220, 145);
+}
+
+body.index{
+    background-color: rgb(75, 23, 245);
+}
+
+body.designer{
+    background-color: rgb(253, 2, 253);
 }
 
 
